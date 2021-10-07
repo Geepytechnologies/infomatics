@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import "../navbar.css";
+@import "../main.css";
+/*
+     font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Parisienne', cursive;
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body);
+}
+:root{
+    --index:rgb(60, 143, 146);
+    --bright: #ff6728;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --dm: 'DM Sans', sans-serif;
+    --paris: 'Parisienne', cursive;
+    --body:rgb(230,230,230);
+}
+/* Global styling */
+.body{
+    background-color: var(--body);
+}
+.poppins{
+    font-family: var(--poppins);
+}
+.dm{
+    font-family: var(--dm);
+}
+.roboto{
+    font-family: var(--roboto);
+}
+.index{
+    background-color: var(--index);
+}
+.bright{
+    background-color: var(--bright);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.picture{
+    display: flex;
+    flex-direction: row;
+}
+.picturebox{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    background-image: url(../gp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5px;
+}
+.name h4{
+    margin-bottom: 8px;
+}
+.text{
+    margin: 10px 10px 0px 2px;
+}
+.last{
+    position: relative;
+    background-color: rgb(56, 55, 55);
+    height: 150px;
+    width: 100%;
+    margin-top: 8rem;
+}
+.last p{
+    color: white;
+}
+.log{
+    flex-basis: 100%;
+}
+.log1{
+  margin: 2px;
+  display: flex;
+  min-width: 238px;
+}
+.logo{
+    flex-basis: 100%;
+}
+.logo1{
+  margin: 2px;
+  display: flex;
+  min-width: 238px;
+}

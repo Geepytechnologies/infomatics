@@ -1,0 +1,60 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(60, 143, 146);
+    height: 80px;
+    box-shadow: 0px 3px 5px 1px #888888;
+}
+nav {
+    flex: 2;
+    text-align: center;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.socials ul{
+    display: inline-block;
+}
+.socials ul li a{
+    display: inline-block;
+    margin: 3px;
+}
+.logo{
+    flex-basis: 25%;
+}
+.logo1{
+    margin: 2px;
+    display: flex;
+}
+    /*img-logo*/
+
+.nav-brand{
+    font-weight: bold;
+    align-self: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--roboto);
+}
+.nav{
+    flex-basis: 45%;
+}
+.social{
+    flex-basis: 30%;
+}
+.social.socials ul li a{
+    color: white;
+}

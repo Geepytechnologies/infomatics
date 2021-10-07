@@ -1,0 +1,324 @@
+@media screen and (max-width: 1007px){
+    .main{
+        flex-direction: column;
+    }
+    .sidebar{
+        overflow: hidden;
+        overflow-x: hidden;
+        max-height: 900px;
+        margin-right: 0%;
+        position: relative;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+    .newsbox{
+        justify-content: space-between;
+    }
+    .newsbox2,.newsbox3, .newsbox4{
+        margin: 8px;
+    }
+    .news1,.news2,.news3,.news4,.news5{
+        border-bottom: none;
+        border-top: none;
+        position: relative;
+    }
+    .box1,.box2,.box3,.box4,.box51{
+        height: 9rem;
+        width: 10rem;
+        border: 2px solid white;
+        box-shadow: -1px -1px 5px #888888,1px 1px 5px #888888;
+    }
+    .textlink{
+        margin: 15px 0px;
+        font-size: 1rem;
+    }
+    .news1box{
+        display: flex;
+        flex-direction: column;
+    }
+    .describe{
+        margin-top: 5px;
+    }
+    .describe h5{
+        display: block;
+        word-wrap: break-word;
+    }
+    .createdby h5{
+        display: flex;
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 8px;
+    }
+    .news-container{
+        width: auto;
+    }
+    .blogcontain2{
+        margin-left: 8px;
+    }
+    .imagetext1{
+        width: 90%;
+        margin-left: 5px;
+    }
+    .imagetext2{
+        width: 90%;
+        margin-left: 7px;
+    }
+    .imagetext3{
+        width: 90%;
+        margin-left: 7px;
+    }
+    .tag{
+        margin-left: 7px;
+    }
+    .articles{
+        flex-basis: 90%;
+       /* width: 90vw;*/
+        margin-right: 10px;
+        margin-bottom: 5rem;
+    }
+    .ptext{
+        text-align: center;
+        padding: 5px 0px;
+    }
+    .nav{
+        display: none;
+    }
+    .mainimgcontainer{
+        height: 250px;
+    }
+    .mainimg{
+        height: 250px;
+    }
+    .latecon{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 100px;
+    }
+    .signupbox{
+        margin-top: 0px;
+        margin-right: 200px ;
+    }
+    .form-contain{
+        height: 100px;
+    }
+    .latestposts{
+        margin-left: 120px;
+    }
+    .social{
+        display: block;
+    }
+    .socialicon{
+        display: none;
+    }
+    .menu{
+        display: block; 
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .logo{
+        flex-basis: 50%;
+    }
+    .social{
+        flex-basis: 50%;
+        position: relative;
+    }
+    .form{
+        width: 40%;
+        height: 40%;
+    }
+    
+}
+@media screen and (max-width: 911px){
+    .logo{
+        flex-basis: 30%;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+}
+@media screen and (max-width: 762px){
+    .logo{
+        flex-basis: 80%;
+        width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+}
+@media screen and (max-width: 740px){
+    .news-container{
+        max-width: 500px;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+}
+@media screen and (max-width: 690px){
+    .nav{
+        display: none;
+        flex-basis: 10%;
+    }
+    .social{
+        display: none;
+        flex-basis: 10%;
+    }
+    .logo{
+        flex-basis: 100%;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+     margin: 2px;
+     display: flex;
+     min-width: 238px;
+    }
+    .blogcontain2{
+        flex-basis: 50%;
+    }
+    .blogcontain3{
+        flex-basis: 50%;
+    }
+    .blogcontain4{
+        display: none;
+    }
+    .latecon{
+        margin-right: -90px;
+        max-width: 500px;
+    }
+    .latestposts{
+        margin-right: 140px;
+    }
+}
+@media screen and (max-width: 520px){
+   .logo{
+       flex-basis: 100%;
+   }
+   .log{
+       flex-basis: 80%;
+   }
+   .log1{
+    margin: 2px;
+    display: flex;
+    min-width: 238px;
+}
+   .nav{
+       display: none;
+   }
+   .social{
+       display: none;
+   }
+   .latestcontain,.latestcontain2,.latestcontain3,.latestcontain4{
+    height: auto;
+    width: 50%;
+    position: relative;
+    margin-left: 90px;
+   }
+   .describe{
+       margin-bottom: 3px;
+   }
+   .blackimg1,.blackimg2,.blackimg3,.blackimg4{
+    background-color: black;
+    height: 300px;
+    width: 90%;
+    margin: 5px 0px 0px 20px;
+   }
+   .lateimg1,.lateimg2,.lateimg3,.lateimg4{
+    height: 300px;
+    width: 100%;
+   }
+   .news-container{
+       width: auto;
+       min-width: 350px;
+   }
+   .blogcontain2{
+    flex-basis: 100%;
+   }
+   .blogcontain3{
+    display: none;
+   }
+  .blogcontain4{
+    display: none;
+  }
+  .btn2{
+      display: none;
+  }
+  .news1{
+      display: flex;
+      flex-direction: row;
+  }
+  .box1{
+      flex-basis: 30%;
+  }
+  .news1box{
+      flex-basis: 50%;
+  }
+  .createdby{
+      margin-top: 5%;
+  }
+  .news-container2{
+      margin-top: 10px;
+  }
+  .news5{
+      background-color: red;
+      height: 500px;
+      display: none;
+  }
+  *{
+      overflow-x: hidden;
+  }
+  .rule1{
+    border: 2px solid #ff6728;
+    width: 50px;
+    height: 0;
+    margin-top: 12px;
+    flex-basis: 20%;
+    margin-right: 10px;
+    margin-left: 14px;
+ }
+ .rule2{
+    border: 2px solid #ff6728;
+    width: 50px;
+    height: 0;
+    margin-top: 12px;
+    flex-basis: 20%;
+    margin-left: 10px;
+ }
+ .latestposts{
+     align-items: center;
+     justify-content: center;
+ }
+ .mainimg{
+     width: 100vw;
+     height: 200px;
+ }
+ .mainimgcontainer{
+     height: inherit;
+     width: inherit;
+ }
+}

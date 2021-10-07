@@ -1,0 +1,19 @@
+@import url(../navbar.css);
+@import url(../footer.css);
+@import url(../media.css);
+@import url(../main.css);
+
+.men-article{
+    margin: 4px;
+}
+.men-article>:first-child{
+    margin: 10px;
+}
+.fashionimg{
+    background-image: url(../infomatics/fashion\ 3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+}

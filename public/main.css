@@ -1,0 +1,1130 @@
+@import url(css/fonts.css);
+/*
+     font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Parisienne', cursive;
+*/
+body{
+    font-family: roboto;
+    background-color: var(--body);
+    overflow-x: hidden;
+}
+:root{
+    --index:rgb(60, 143, 146);
+    --index2: rgb(84, 84, 214);
+    --bright: #ff6728;
+    --poppins: 'poppins',sans-serif;
+    --roboto: 'roboto', sans-serif;
+    --dm: 'dm sans', sans-serif;
+    --paris: 'parisienne', sans-serif;
+    --body:rgb(230,230,230);
+}
+/* Global styling */
+.body{
+    background-color: var(--body);
+}
+.headercolor{
+    background-color: var(--index);
+}
+.text-white{
+    color: white;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.poppins{
+    font-family: var(--poppins);
+}
+.dm{
+    font-family: var(--dm);
+}
+.roboto{
+    font-family: var(--roboto);
+}
+.paris{
+    font-family: var(--paris);
+}
+.fs-20{
+    font-size: 20px;
+}
+.index{
+    background-color: var(--index);
+}
+.index2{
+    background-color: var(--index2);
+}
+.bright{
+    background-color: var(--bright);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: var(--index);
+    height: 5rem;
+    box-shadow: 0px 3px 5px 1px #888888;
+}
+nav {
+    flex: 2;
+    text-align: center;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.socials ul{
+    display: inline-block;
+}
+.socials ul li a{
+    display: inline-block;
+    margin: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.logo{
+    flex-basis: 25%;
+}
+.logo1{
+    margin: 2px;
+    display: flex;
+    min-width: 238px;
+}
+    /*img-logo*/
+
+.nav-brand{
+    font-weight: bold;
+    align-self: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--roboto);
+}
+.nav{
+    flex-basis: 45%;
+}
+.social{
+    flex-basis: 30%;
+}
+.social.socials ul li a{
+    color: white;
+}
+.menu i{
+    font-size: 1.5rem;
+}
+
+/*! End of navbar */
+.contains{
+    display: flex;
+}
+.form{
+    min-width: 300px;
+    width: 30vw;
+    height: 40vh;
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: -1px -1px 2px #888888,1px 1px 2px #888888;
+    background: linear-gradient(var(--index),var(--bright));
+    z-index: 1;
+    /*background-color: var(--bright);*/
+}
+.menu{
+    display: none;
+}
+.myform{
+    width: 90%;
+    height: 80%;
+    padding: 30px;
+}
+.closeicon{
+    position: absolute;
+    padding: 5px;
+    margin-top: 5px;
+    left: 90%;
+}
+.closeicon i{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.first{
+    margin-bottom: 8px;
+}
+.surnametext>input{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+}
+.second{
+    margin-bottom: 8px;
+}
+.othertext>input{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+}
+.third{
+    margin-bottom: 8px;
+}
+.emailtext>input{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+}
+.btnform{
+    margin-left: 40%;
+    width: 50%;
+    max-width: 60px;
+}
+.btnform:hover{
+    transform: scale(1.1,1.1);
+}
+.btnform>button{
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(172, 158, 158);
+    border-radius: 5px;
+    color: white;
+    background-color: var(--index2);
+    cursor: pointer;
+}
+
+/*  RECENT NEWS */
+.mainimg{
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 3px;
+    position: relative;
+    background-color: black;
+
+}
+.mainimgcontainer{
+    height: 300px;
+    background-image: url("./infomatics/info2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-top: 3px;
+    filter: brightness(50%);
+    filter: contrast(130%);
+    opacity: 0.6;
+}
+.signup{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: auto;
+}
+.signup h1{
+    color: white;
+}
+.btn{
+    margin:10px 0px 5px 40% ;
+    padding: 5px 10px 5px 10px;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: var(--bright);
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+    border: 1px solid white;
+    color: white;
+}
+.main{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.articles{
+    flex-basis: 70%;
+    flex: 1;
+    width: 70vw;
+    margin-right: 10px;
+    margin-bottom: 5rem;
+    margin-top: 0px;
+}
+.newsbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+/*.blogcontain{
+}*/
+.newshover:hover{
+    transform: scale(1.02,1.02);
+}
+.newsbox1{
+    border: 1px solid gray;
+    height: 200px;
+    position: relative;
+    margin: 2px;
+    background-image: url("Guitar.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -3px -3px 5px #888888,3px 3px 5px #888888;
+    border: 3px solid white;
+}
+.newsbox2{
+    border: 1px solid gray;
+    height: 200px;
+    position: relative;
+    margin: 2px;
+    background-image: url("./infomatics/fashion\ 1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -3px -3px 5px #888888,3px 3px 5px #888888;
+    border: 3px solid white;
+}
+.newsbox3{
+    border: 1px solid gray;
+    height: 200px;
+    position: relative;
+    margin: 2px;
+    background-image: url("./infomatics/info5.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -3px -3px 5px #888888,3px 3px 5px #888888;
+    border: 3px solid white;
+}
+.newsbox4{
+    border: 1px solid gray;
+    height: 200px;
+    position: relative;
+    margin: 2px;
+    background-image: url("Dogs/bull\ mastiff.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -3px -3px 5px #888888,3px 3px 5px #888888;
+    border: 3px solid white;
+}
+.blogcontain{
+    flex-basis: 25%;
+}
+.blogcontain2{
+    flex-basis: 25%;
+}
+.blogcontain3{
+    flex-basis: 25%;
+}
+.blogcontain4{
+    flex-basis: 25%;
+}
+.text1,h5{
+    color:black;
+}
+.tag1{
+    background-color:#ff6728;
+    width: auto;
+    padding: 1px;
+    max-width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+.tag2{
+    background-color:#ff6728;
+    width: auto;
+    max-width: 30%;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tag3{
+    background-color:#ff6728;
+    width: auto;
+    max-width: 30%;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tag4{
+    background-color:#ff6728;
+    width: auto;
+    max-width: 30%;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tag{
+    margin-top: 3px;
+}
+.tag h6{
+    color: white;
+}
+.imagetext{
+    margin-top: 5px;
+}
+.imagetext1{
+    margin-top: 5px;
+}
+.imagetext2{
+    margin-top: 5px;
+}
+.imagetext3{
+    margin-top: 5px;
+}
+.recentlink{
+    color: rgb(59, 57, 57);
+    text-decoration: none;
+}
+.recentlink:visited{
+    background-color: none;
+}
+/*....RECENT NEWS END ...*/
+
+
+/* TRENDING POSTS START*/
+.sidebar{
+    flex-basis: 25%;
+    height: auto;
+    width: 50px;
+    position: relative;
+}
+.trending h3{
+    font-family: var(--poppins);
+}
+.news-container{
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+.news1{
+    display: flex;
+    flex-basis: 100%;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid grey;
+    border-bottom:1px solid grey ;
+}
+.news2{
+    display: flex;
+    padding: 8px;
+    position: relative;
+    width: 90%;
+    border-bottom:1px solid grey ;
+}
+.news3{
+    display: flex;
+    padding: 8px;
+    width: 90%;
+    position: relative;
+    border-bottom:1px solid grey ;
+}
+.news4{
+    display: flex;
+    padding: 8px;
+    position: relative;
+    width: 90%;
+    border-bottom:1px solid grey ;
+}
+.news5{
+    display: flex;
+    padding: 8px;
+    width: 90%;
+    border-bottom:1px solid grey ;
+}
+.describe{
+    width: 30vw;
+}
+.describe h5{
+    display: none;
+}
+.createdby{
+    display: none;
+    margin-top: 3px;
+}
+.createdby h5{
+    color: var(--index2);
+    font-size: 10px;
+}
+.box1{
+    height: 5rem;
+    width: 6rem;
+    margin-right: 10px;
+    position: relative;
+    margin-right: 8px;
+    background-image: url("./Dogs/bull\ mastiff.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box2{
+    height: 5rem;
+    width: 6rem;
+    margin-right: 10px;
+    position: relative;
+    margin-right: 8px;
+    background-image: url("./infomatics/info5.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    height: 5rem;
+    width: 6rem;
+    margin-right: 10px;
+    position: relative;
+    margin-right: 8px;
+    background-image: url("./infomatics/fashion\ 1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box4{
+    height: 5rem;
+    width: 6rem;
+    margin-right: 10px;
+    position: relative;
+    margin-right: 8px;
+    background-image: url("./infomatics/fashion\ 2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    height: 5rem;
+    width: 6rem;
+    margin-right: 10px;
+    position: relative;
+    margin-right: 8px;
+    background-image: url("Guitar.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box51{
+    height: 5rem;
+    width: 6rem;
+    margin-right: 10px;
+    position: relative;
+    margin-right: 8px;
+    background-image: url("Guitar.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.textlink{
+    text-decoration: none;
+    color: black;
+    max-width: 60%;
+    position: absolute;
+    word-wrap: break-word;
+}
+/* ..../TRENDING POSTS END...*/
+
+
+
+
+/* LATEST POSTS */
+.news-container2{
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin-top: 0px;
+}
+.post{
+    width: 250px;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.post h3{
+    text-align: center;
+}
+.latecontain{
+    width: 50%;
+    margin-right: 40vw;
+    flex-basis: 100%;
+    position: relative;
+}
+/*     ADS SECTION   */
+.ads{
+    display: grid;
+    grid-template-columns: 25vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw;
+    row-gap: 20px;
+    padding: 10px;
+    position: absolute;
+    right: 0vw;
+    display: none;
+    background-color: blue;
+}
+.ad1{
+    background-color: hotpink;
+}
+.ad2{
+    background-color: rgb(105, 120, 255);
+}
+.ad3{
+    background-color: rgb(153, 255, 105);
+}
+.ad4{
+    background-color: rgb(146, 30, 150);
+}
+
+
+/*  X   ADS SECTION   */
+.signupbox{
+    flex-basis: 100%;
+    display: flex;
+    width: 40vw;
+    margin: 3% 50% 0% 0%;
+}
+.latestcontain{
+    max-height: 90vh;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.latestcontain2{
+    max-height: 90vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.latestcontain3{
+    max-height: 90vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.latestcontain4{
+    max-height: 90vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.blackimg1,.blackimg2,.blackimg3,.blackimg4{
+    background-color: black;
+    height: 300px;
+    width: 90%;
+    margin: 5px 0px 0px 20px;
+}
+.lateimg1,.lateimg2,.lateimg3,.lateimg4{
+    height: 300px;
+    width: 100%;
+}
+.lateimg1{
+    background-image: url(./Dogs/bull\ mastiff.jpg);
+    background-size: cover;
+    border: 3px solid white;
+    box-shadow:-3px -3px 5px #888888,3px 3px 5px #888888;
+}
+.lateimg2{
+    background-image: url(./infomatics/info5.jpeg);
+    background-size: cover;
+    border: 3px solid white;
+    box-shadow:-3px -3px 5px #888888,3px 3px 5px #888888;
+}
+.lateimg3{
+    background-image: url(./infomatics/fashion\ 1.jpeg);
+    background-size: cover;
+    border: 3px solid white;
+    box-shadow:-3px -3px 5px #888888,3px 3px 5px #888888;
+}
+.lateimg4{
+    background-image: url(./infomatics/info3.jpeg);
+    background-size: cover;
+    border: 3px solid white;
+    box-shadow:-3px -3px 5px #888888,3px 3px 5px #888888;
+}
+
+.textcontain,.textcontain2,.textcontain3,.textcontain4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    width: 90%;
+    padding-left: 6px;
+}
+.textheader,.textheader2,.textheader3,.textheader4{
+    margin-top: 10px;
+}
+.content,.content2,.content3,.content4{
+    margin-top: 10px;
+    width: 100%;
+}
+.btn2{
+    background-color: var(--index2);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 20%;
+    margin: 5px 80% 5px 0px;
+}
+.read{
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+.btn2:hover{
+    opacity: 0.9;
+}
+/* small sign up*/
+.form-contain{
+    max-width: 100%;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+}
+.signupcontainer{
+    margin-top: 10px;
+}
+.input{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 6px;
+    border: 1px solid grey;
+}
+.btn3{
+    background-color: var(--index2);
+    color: white;
+    margin-left: 40%;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 20%;
+    padding: 3px 0px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.btncontain:hover{
+    transform: scale(1.1,1.1);
+    opacity: 0.9;
+}
+/* small form contain end*/
+/*...LATEST POST END..*/
+
+.last{
+    position: relative;
+    background-color: rgb(56, 55, 55);
+    height: 150px;
+    width: 100%;
+    margin-top: 4rem;
+}
+.last p{
+    color: white;
+}
+.log{
+    flex-basis: 80%;
+}
+.log1{
+  margin: 2px;
+  display: flex;
+  min-width: 238px;
+}
+.copy1{
+    padding: 5px 5px 5px 0px;
+}
+
+
+@media screen and (max-width: 1007px){
+    .main{
+        display: block;
+    }
+    .sidebar{
+        overflow: hidden;
+        overflow-x: hidden;
+        width: 60vw;
+        position: relative;
+        margin-left: 5%;
+    }
+    .articles{
+        margin: 0px 10% 0px 15%;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+    .newsbox{
+        justify-content: space-between;
+    }
+    .newsbox1,.newsbox2,.newsbox3, .newsbox4{
+        margin: 8px;
+    }
+    .news1,.news2,.news3,.news4,.news5{
+        border-bottom: none;
+        border-top: none;
+        position: relative;
+    }
+    .news1{
+        display: flex;
+        flex-direction: row;
+    }
+    .box1{
+       flex-basis: 60%;
+    }
+    .news1box{
+       flex-basis: 30%;
+    }
+    .box1,.box2,.box3,.box4,.box51{
+        height: 9rem;
+        width: 10rem;
+        border: 2px solid white;
+        box-shadow: -1px -1px 5px #888888,1px 1px 5px #888888;
+    }
+    .textlink{
+        margin: 15px 0px;
+        font-size: 1rem;
+    }
+    .news1box{
+        display: flex;
+    }
+    .cover1{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .cover2{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .cover3{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .cover4{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .cover5{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .textlink{
+        flex-basis: 20%;
+        position: relative;
+    }
+    .describe{
+        margin-top: 5px;
+        flex-basis: 30%;
+    }
+    .createdby{
+        flex-basis: 10%;
+    }
+    .describe h5{
+        display: block;
+        word-wrap: break-word;
+    }
+    .createdby h5{
+        display: flex;
+        position: absolute;
+        margin-bottom: 8px;
+    }
+    .news-container{
+        width: auto;
+    }
+    .blogcontain2{
+        margin-left: 8px;
+    }
+    .imagetext1{
+        width: 90%;
+        margin-left: 5px;
+    }
+    .imagetext2{
+        width: 90%;
+        margin-left: 7px;
+    }
+    .imagetext3{
+        width: 90%;
+        margin-left: 7px;
+    }
+    .tag{
+        margin-left: 7px;
+    }
+    .articles{
+        flex-basis: 90%;
+       /* width: 90vw;*/
+        margin-right: 10px;
+        margin-bottom: 5rem;
+    }
+    .ptext{
+        text-align: center;
+        padding: 5px 0px;
+    }
+    .nav{
+        display: none;
+    }
+    .mainimgcontainer{
+        height: 250px;
+    }
+    .mainimg{
+        height: 250px;
+    }
+    .latecontain{
+        width: 50vw;
+        margin-left: 20px;
+    }
+    .social{
+        display: block;
+    }
+    .socialicon{
+        display: none;
+    }
+    .menu{
+        display: block; 
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .logo{
+        flex-basis: 50%;
+    }
+    .social{
+        flex-basis: 50%;
+        position: relative;
+    }
+    .form{
+        width: 40%;
+        height: 40%;
+    }
+    
+}
+@media screen and (max-width: 911px){
+    .logo{
+        flex-basis: 30%;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+    .articles{
+        width: 80vw;
+        margin: auto;
+    }
+    .sidebar{
+        width: 60vw;
+    }
+    .btn2{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 770px){
+    .logo{
+        flex-basis: 30%;
+        width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+    .signup{
+      top: 40%;
+      left: 25%;
+    }
+    .articles{
+        width: 90vw;
+    }
+    .signupbox{
+        width: 50vw;
+        margin-left: 5%;
+    }
+    .btn2{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 740px){
+    .news-container{
+        max-width: 500px;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+      margin: 2px;
+      display: flex;
+      min-width: 238px;
+    }
+}
+@media screen and (max-width: 690px){
+    .nav{
+        display: none;
+        flex-basis: 10%;
+    }
+    .social{
+        display: block;
+        flex-basis: 30%;
+    }
+    .socialicon{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .logo{
+        flex-basis: 70%;
+    }
+    .log{
+        flex-basis: 80%;
+    }
+    .log1{
+     margin: 2px;
+     display: flex;
+     min-width: 238px;
+    }
+    .articles{
+        width: 95vw;
+    }
+    .sidebar{
+        width: 70vw;
+        overflow: hidden;
+    }
+    .signup{
+        top: 40%;
+        left: 20%;
+    }
+    .signupbox{
+        margin-left: 25%;
+    }
+    .blogcontain2{
+        flex-basis: 50%;
+    }
+    .blogcontain3{
+        flex-basis: 50%;
+    }
+    .blogcontain4{
+        display: block;
+    }
+    
+    .latecontain{
+        width: 70vw;
+        margin: auto;
+    }
+    .latestposts{
+        margin-right: 140px;
+    }
+    .ads{
+        display: none;
+    }
+}
+@media screen and (max-width: 520px){
+   .sidebar{
+       width: 90vw;
+       margin-left: 1%;
+   }
+   .describe{
+       width: 45vw;
+   }
+   .articles{
+       width: 90vw;
+   }
+   .signup{
+       left: 17vw;
+   }
+   .signupbox{
+       width: 90vw;
+       margin: auto;
+   }
+   .latestcontain,.latestcontain2,.latestcontain3,.latestcontain4{
+       width: 90vw;
+   }
+   .latecontain{
+       margin-left: 5%;
+   }
+   .signup h1{
+       font-size: 1.5rem;
+   }
+   .btn{
+       width: 25%;
+   }
+   .btn:hover{
+       width: 26%;
+   }
+   .form{
+       left: 20vw;
+   }
+}
+@media screen and (max-width: 400px){
+  .signup{
+      left: 10vw;
+  }  
+  .form{
+      left: 10vw;
+  }
+}
+@media screen and (max-width: 365px){
+  .logo{
+      width: 50%;
+  }
+  .btn2{
+      min-width: 30%;
+  }
+}

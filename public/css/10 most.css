@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import "../main.css";
+/*
+     font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Parisienne', cursive;
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body);
+}
+:root{
+    --index:rgb(60, 143, 146);
+    --bright: #ff6728;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --dm: 'DM Sans', sans-serif;
+    --paris: 'Parisienne', cursive;
+    --body:rgb(230,230,230);
+}
+/* Global styling */
+.body{
+    background-color: var(--body);
+}
+.poppins{
+    font-family: var(--poppins);
+}
+.dm{
+    font-family: var(--dm);
+}
+.roboto{
+    font-family: var(--roboto);
+}
+.index{
+    background-color: var(--index);
+}
+.bright{
+    background-color: var(--bright);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.dog-article{
+    margin: 3px;
+    margin-top: 10px;
+    width: 70vw;
+}
+.picture{
+    display: flex;
+    flex-direction: row;
+}
+.picturebox{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    background-image: url(../gp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5px;
+}
+.name h4{
+    margin-bottom: 8px;
+}
+#thirdp{
+   margin-top: 10px;
+}
+#h4{
+    text-align: center;
+}
+#p4{
+   margin: 5px;
+}
+.img{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/american-pitbull-terrier-scaled.jpg);
+    background-size: contain;
+}
+.img2{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/bull\ mastiff.jpg);
+    background-size: contain;
+}
+.img3{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/american-pitbull-terrier-scaled.jpg);
+    background-size: contain;
+}
+.img4{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/img_DogBreed-Rottweiler.jpg);
+    background-size: contain;
+}
+.img5{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/German-Shepherd-Dog-laying-down-in-the-backyard-500x487.jpeg);
+    background-size: contain;
+}
+.img6{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/siberian\ husky.jpg);
+    background-size: contain;
+}
+.img7{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/alaskan\ malamute.jpg);
+    background-size: contain;
+}
+.img8{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/Doberman.jpg);
+    background-size: contain;
+}
+.img9{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/chow\ chow.jpg);
+    background-size: contain;
+}
+.img10{
+    height: 250px;
+    width: 30%;
+    background-image: url(../Dogs/Great-Dane-looking-back-over-his-shoulder-outdoors-at-the-park-500x486.jpg);
+    background-size: contain;
+}
+.last{
+    position: relative;
+    background-color: rgb(56, 55, 55);
+    height: 150px;
+    width: 100%;
+    margin-top: 8rem;
+}
+.last p{
+    color: white;
+}

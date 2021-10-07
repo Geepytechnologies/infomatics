@@ -1,0 +1,18 @@
+.last{
+    position: relative;
+    background-color: rgb(56, 55, 55);
+    height: 150px;
+    width: 100%;
+    margin-top: 8rem;
+}
+.last p{
+    color: white;
+}
+.log{
+    flex-basis: 80%;
+}
+.log1{
+  margin: 2px;
+  display: flex;
+  min-width: 238px;
+}
