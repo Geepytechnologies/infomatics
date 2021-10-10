@@ -10,13 +10,13 @@ const app = express();
 const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose')
 const indexRouter = require('./routes/index');
-const mostRouter = require('./routes/most')
 const firstRouter = require('./routes/first')
 const signup = require('./routes/signup')
-const sports = require('./routes/sports')
 const entertainment = require('./routes/entertainment')
-const music = require('./routes/music')
 const help = require('./routes/help')
+const sports = require('./routes/sports')
+const musicRouter = require('./routes/music')
+
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
@@ -25,10 +25,11 @@ app.use(expressLayouts);
 app.use(express.static('public'));
 app.use('/',indexRouter)
 app.use('/first', firstRouter)
-app.use('/music', music)
 app.use('/entertainment', entertainment)
 app.use('/signup', signup)
 app.use('/help', help)
+app.use('/sport', sports)
+app.use('/musicNews', musicRouter)
 
 mongoose.connect(process.env.DATABASE_URL,{
     useNewUrlParser: true,
